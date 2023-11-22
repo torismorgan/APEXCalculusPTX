@@ -92,7 +92,24 @@
       <caption/>
         <!-- START figures/fig_extreme1.tex -->
       <image xml:id="img_extreme1">
-        <description></description>
+        <shortdescription>
+          The graph has a maximum value but no minimum and has an open interval
+        </shortdescription>
+        <description>
+          <p>
+            This graph illustrates a mathematical function defined over an open interval, excluding its endpoints. It features a distinct maximum point, representing the function's highest value within the interval. 
+            However, there is no corresponding minimum point within the defined range.
+          </p>
+
+          <p>
+            The open interval nature of this graph implies that the function is not defined at the extreme edges of the interval, as the endpoints are not included in the domain. 
+            This absence of minimum values within the interval can be due to several factors, including the function's behavior or the constraints imposed on it.
+          </p>
+          <p>
+            The "upside-down parabola" shape is distinctive, indicating a concave-downward curve, and is associated with functions that have a negative second derivative. Understanding such graphs is fundamental 
+            in mathematical analysis and modeling where certain variables exhibit maximum values within a specific range
+          </p>
+        </description>
         <latex-image>
 
         \begin{tikzpicture}
@@ -112,7 +129,23 @@
       <caption/>
 
       <image xml:id="img_extreme2">
-        <description></description>
+        <shortdescription>
+          Graph of a function with a minimum and discontinuity in place for maximum to occur
+        </shortdescription>
+        <description>
+          <p>
+            This graph illustrates a mathematical function with an "upside-down parabola" shape. 
+            It features a minimum point, which represents the function's lowest value within the defined interval. 
+          </p>
+          <p>
+          Notably, there is no corresponding maximum point, and there is a discon􀆟nuity instead in the
+          “natural” place for the maximum to occur. This adds to the unique features of this graph. 
+        </p>
+        <p>
+          The distinctive shape of the graph resembles that of an "n" or an upside-down "u", which associated with 
+          functions having a negative second derivative, causing the graph to open downward. 
+          </p>
+        </description>
         <latex-image>
 
         \begin{tikzpicture}
@@ -133,7 +166,19 @@
       <caption/>
         <!-- START figures/fig_extreme3.tex -->
       <image xml:id="img_extreme3">
-        <description></description>
+        <shortdescription>
+          Graph with Both Maximum and Minimum in a Closed Interval
+        </shortdescription>
+  <description>
+    <p>
+    This graph illustrates a continuous mathematical function defined over a closed interval. It notably exhibits both a maximum point 
+    and a minimum point within the defined range. This behavior is typical for continuous functions within a closed interval, where the function's values are well-defined and exhibit extrema.
+    </p>
+  <p>
+    The graph also has the shape of an upside down parabola. It's continuity and closed interval nature ensure that both maximum and minimum points are present and accurately captured. 
+    This feature is significant in mathematical analysis and modeling, as it provides insights into the function's behavior and the range of its extrema.
+    </p>
+  </description>
         <latex-image>
 
         \begin{tikzpicture}
@@ -200,7 +245,21 @@
 
           <!-- START figures/fig_extval1.tex -->
         <image xml:id="img_extval1" width="47%">
-          <description></description>
+
+          <shortdescription>
+            Graph of f(x) = 2x^3 - 9x^2
+          </shortdescription>
+          <description>
+              <p>
+                This graph represents the cubic function <m>f(x) = 2x^3-9x^2</m>. It is characterized by the presence
+                 of two critical points, where the function exhibits local extrema(maximum and minimum). It seems that the smallest <m>y</m>-value is <m>-27</m>,
+                 found when <m>x=3</m>.It also seems that the largest <m>y</m>-value is <m>25</m>, found at the endpoint of <m>I</m>, <m>x=5</m>.
+                </p> 
+                <p>
+                 The shape of the graph resembles that of a cubic curve, with regions of rising and falling. At <m>x = 0</m>, the graph touches but does not cross the x-axis, 
+                  indicating a point of inflection.
+                </p>
+          </description>
           <latex-image>
 
           \begin{tikzpicture}
@@ -324,7 +383,18 @@
         <caption>A graph of <m>f(x) = (3x^4-4x^3-12x^2+5)/5</m> as in <xref ref="ex_extval2">Example</xref></caption>
           <!-- START figures/fig_extval2.tex -->
         <image xml:id="img_extval2" width="47%">
-          <description></description>
+            <shortdescription>
+              Graph of f(x) = (3x^4 - 4x^3 - 12x^2 + 5)/5 with relative minima 0 and -5.4 and relative maximum 1.
+            </shortdescription>
+            <description>
+              This graph represents the function <m>f(x) = (3x^4-4x^3-12x^2+5)/5</m> . The graph showcases the behavior of 
+              a polynomial function. Estimated relative extrema for <m>f</m> include a relative minimum with a value of <m>(f(-1) = 0)</m>
+              and  <m>(f(2) =-5.4)</m>, and a relative maximum at the point <m>(0, 1)</m>.
+            <p>
+             The shape of the graph is a polynomial curve which is influenced by the coefficients within the function, but these extrema 
+             points provide key features of the graph's behavior
+            </p>
+     </description>
           <latex-image>
 
           \begin{tikzpicture}
@@ -374,7 +444,21 @@
         <caption>A graph of <m>f(x) = (x-1)^{2/3}+2</m> as in <xref ref="ex_extval3">Example</xref></caption>
           <!-- START figures/fig_extval3.tex -->
         <image xml:id="img_extval3" width="47%">
-          <description></description>
+          
+            <shortdescription>
+              V-shaped graph of (f(x) = (x-1)^{2/3} + 2) with local minimum of (1,2) and no local maxima
+            </shortdescription>
+            <description>
+            <p>
+              This graph depicts the function <m>f(x) = (x-1)^{2/3}+2</m>. The figure suggests that the function
+               does not have any relative maxima but its shape is notably reminiscent of a V, with a relative minimum at the point (1, 2). 
+              </p>
+              <p>
+               It is evident that <m>y=f(1)=2</m> represents the minimum value of the function. The V-shaped graph emphasizes the presence 
+               of a local minimum at (1, 2), which is a key feature of the function's behavior.
+               </p>
+          </description>
+          
           <latex-image>
 
           \begin{tikzpicture}
@@ -475,7 +559,22 @@
     <caption>A graph of <m>f(x)=x^3</m> which has a critical value of <m>x=0</m>, but no relative extrema</caption>
       <!-- START figures/fig_extreme4.tex -->
     <image xml:id="img_extreme4" width="47%">
-      <description></description>
+
+        <shortdescription>
+          A cubic graph with a critical value of x=0 and no relative extrema
+        </shortdescription>
+        <description>
+        <p>
+          This graph illustrates the cubic function <m>f(x)=x^3</m>. Notably, it features a critical value at <m>x=0</m>,
+           where the slope of the graph changes. However, there are no relative extrema on the graph, 
+           indicating that there are no local maxima or minima.
+        </p>
+        <p>
+          The presence of a critical value at <m>x=0</m> highlights a point of inflection or a change in the function's behavior. The smooth and continuous
+           curve of the graph is characteristic of cubic functions, which exhibit a gradual change in slope without the presence of local extrema. 
+        </p>
+      </description>
+      
       <latex-image>
 
       \begin{tikzpicture}
@@ -552,7 +651,21 @@
         <caption>A graph of <m>f(x) = 2x^3+3x^2-12x</m> on <m>[0,3]</m> as in <xref ref="ex_extval4">Example</xref></caption>
           <!-- START figures/fig_extval4.tex -->
         <image xml:id="img_extval4" width="47%">
-          <description></description>
+          <shortdescription>
+            Graph of (f(x) = 2x^3 + 3x^2 - 12x) with maximum 45 and minimum -7
+          </shortdescription>
+          <description>
+            <p>
+              This graph represents the function <m>f(x) = 2x^3+3x^2-12x</m>, defined over the interval <m>[0,3]</m>. Evaluating 
+              <m>f(x)</m> at the endpoints of the interval, we find that <m>(f(0) = 0)</m>, <m>(f(1) =-7)</m> and <m>(f(3) = 45)</m>. 
+              This shows that  the maximum value is <m>45</m> and the minimum value is <m>-7</m>.    
+            </p>
+            <p>
+              The shape of the graph is characteristic of a cubic and quadratic function. It exhibits an upward trend on the right side of the interval 
+              and a downward trend on the left side, with a local minimum at <m>x=1</m> and a local maximum at <m>x=3</m>
+            </p>
+          </description>
+          
           <latex-image>
 
           \begin{tikzpicture}
@@ -730,7 +843,20 @@
           <caption>A graph of <m>f(x)</m> on <m>[-4,2]</m> as in <xref ref="ex_extval5">Example</xref></caption>
             <!-- START figures/fig_extval5.tex -->
           <image xml:id="img_extval5">
-            <description></description>
+            <shortdescription>
+              Graph of linear and quadratice piecewise function
+             </shortdescription>
+             <description>
+              <p>
+                The graph exhibits a clear transition from the quadratic segment to the linear segment at
+                <m>x=0</m> because of the two different equations. The absolute minimum value of <m>f</m> is <m>1</m>, 
+                and the absolute maximum value is <m>2</m> within the interval <m>[-4,2]</m>
+              </p>
+              <p>
+                The piecewise function <m>f(x)</m> combines the characteristics of both a parabolic curve and a linear function on the graph.
+                 The graph's shape reflects these distinct features, contributing to the overall understanding of the function's behavior.
+              </p>
+         </description>
             <latex-image>
 
             \begin{tikzpicture}
@@ -830,7 +956,22 @@
           <caption>A graph of <m>f(x)=\cos\mathopen{}\left(x^2\right)\mathclose{}</m> on <m>[-2,2]</m> as in <xref ref="ex_extval6">Example</xref></caption>
             <!-- START figures/fig_extval6.tex -->
           <image xml:id="img_extval6">
-            <description></description>
+            <shortdescription>
+              A graph of <m>f(x)=\cos\mathopen{}\left(x^2\right)\mathclose{}</m> on <m>[-2,2]</m> with minimum value as -1 and maximum 
+              value as 1
+            </shortdescription>
+
+            <description>
+              <p>
+                This graph represents the function <m>f(x)=\cos\mathopen{}\left(x^2\right)\mathclose{}</m> defined on the open interval <m>[-2,2]</m>.
+                The maximum value of <m>f(x)</m> on <m>[-2,2]</m> is 1, and it occurs at the peaks of the cosine function. The minimum value of <m>f(x)</m> 
+                on <m>[-2,2]</m> is -1, and it occurs at the troughs of the cosine function.
+              </p>
+              <p>
+                 The shape of the graph is characteristic of a periodic function, which repeats itself as <m>x</m> increases or decreases. It oscillates between 0 and 1, 
+                 resembling a series of waves that alternate between peaks (maximum values) and troughs (minimum values). 
+              </p>
+             </description>
             <latex-image>
 
             \begin{tikzpicture}
@@ -874,7 +1015,23 @@
           <caption>A graph of <m>f(x)=\sqrt{1-x^2}</m> on <m>[-1,1]</m> as in <xref ref="ex_extval7">Example</xref></caption>
             <!-- START figures/fig_extval7.tex -->
           <image xml:id="img_extval7">
-            <description></description>
+            
+              <shortdescription>
+                Graph of (f(x) = \sqrt{1-x^2}\) where the maximum value is 0, and the minimum value is 1
+              </shortdescription>
+            
+            <description>
+              <p>
+                This graph illustrates the function <m>f(x)=\sqrt{1-x^2}</m>. Notably, the minimum value of <m>f</m> is 0,
+                 which occurs at the endpoints <m>(-1, 0)</m> and <m>(1, 0)</m>, where the square root term equals 0. The maximum value of <m>f</m> 
+                is 1 and takes place at the origin <m>(0, 1)</m>.
+              </p>
+              <p>
+                The shape of the graph is a semicircle, representing the upper half of a unit circle centered at the origin. It is symmetric with 
+                respect to the y-axis and reaches its maximum height at the origin (0, 1). As <m>x</m> moves away from the origin
+                in either direction, the graph approaches the x-axis, reaching its minimum value of 1 at the endpoints of the interval.
+                </p>
+           </description>
             <latex-image>
 
             \begin{tikzpicture}
@@ -1218,7 +1375,23 @@
                 <m>f(x) = <var name="$f"/></m>
               </p>
               <image xml:id="img_03_01_ex_08">
-                <description></description>
+
+                  <shortdescription>
+                    A hyperbolic graph of (f(x) = 2/(x^2+1)) with vertical asymptotes and two asymptotic branches. 
+                  </shortdescription>
+
+                  <description>
+                  <p> 
+                    The graph is a hyperbolic curve, symmetric about the y-axis. It extends infinitely in both the positive 
+                    and negative directions along the x-axis, creating a pair of vertical asymptotes and two asymptotic branches at <m>x=0</m> that 
+                    stretch in opposite directions.
+                  </p>
+                  <p>
+                    At the point (0, 2), the graph reaches a height of 2 where both pairs meet. The shape of the graph is characteristic 
+                    of hyperbolic functions, which exhibit this unique behavior with vertical asymptotes and two asymptotic branches. 
+                </p>
+            </description>
+
                 <latex-image>
                   \begin{tikzpicture}
                   \begin{axis}[
@@ -1256,7 +1429,22 @@
                 <m>f(x) = <var name="$f"/></m>
               </p>
               <image xml:id="img_03_01_ex_09">
-                <description></description>
+
+                  <shortdescription>
+                    Continuous  bowl shaped polynomial graph with maximum at (2, (4\sqrt{2})) and minimum at (0,0)
+                  </shortdescription>
+                  <description>
+                  <p>
+                    The graph of the function exhibits a smooth, symmetric, and continuous pattern. It features a curve that rises to
+                     a maximum at the point <m>(2, (4\sqrt{2}))</m>, which corresponds to the highest value of the function.  Additionally, it reaches a minimum point 
+                     at the origin <m>(0,0)</m>, where the curve touches the x-axis.  
+                    </p>
+                    <p>
+                      The shape of the graph is reminiscent of a symmetric 'bowl' or 'cup' with a well-defined peak and a point where it touches the 
+                      ground. This unique shape is influenced by the combination polynomial and radical terms in the function
+                    </p>
+                </description>
+
                 <latex-image>
                   \begin{tikzpicture}
                   \begin{axis}[
@@ -1301,7 +1489,22 @@
                 <m>f(x) = <var name="$f"/></m>
               </p>
               <image xml:id="img_03_01_ex_10">
-                <description></description>
+
+                  <shortdescription>
+                    A sinusoidal graph of (f(x) = sin(x))
+                  </shortdescription>
+                  <description>
+                  <p>
+                    This graph depicts the function <m>(f(x) = sin(x))</m>. The graph is periodic, repeating its pattern at regular intervals.
+                    The maximum point of the graph is (π/2, 1), representing the highest value of 1 achieved by the sine function.
+                    The minimum point of the graph is (3π/2, -1), marking the lowest value of -1 within the period.
+                  </p>
+
+                    <p>
+                    The shape of the graph is sinusoidal, with oscillations between -1 and 1. It repeats itself indefinitely, forming a 
+                    continuous wave-like pattern.
+                    </p>
+                </description>
                 <latex-image>
                   \begin{tikzpicture}
                   \begin{axis}[
@@ -1346,7 +1549,19 @@
                 <m>f(x) = <var name="$f"/></m>
               </p>
               <image xml:id="img_03_01_ex_11">
-                <description></description>
+
+              
+                  <shortdescription>
+                    Continuous curve graph of \(f(x) = x^2\sqrt{4-x}\) with a maximum and two pints of inflection
+                  </shortdescription>
+                  <description>
+                  <p>
+                    This graph represents the function <m>\(f(x) = x^2\sqrt{4-x}\)</m>. The graph exhibits a continuous curve that is smoothly
+                    rising from left to right. The graph showcases a well-defined peak at the maximum point of <m>\(\left(\frac{16}{5},\frac{512}{25\sqrt{5}}\right)\)</m> 
+                    and at the two points of inflection at <m>((0, 0))</m> and <m>(4, 0)</m>, the graph touches the x-axis. The shape of the graph is
+                    influenced by the polynomial and radical terms in the function.
+                    </p>
+                 </description>
                 <latex-image>
                   \begin{tikzpicture}
                   \begin{axis}[
@@ -1399,7 +1614,22 @@
                 <m>f(x) = <var name="$f"/></m>
               </p>
               <image xml:id="img_03_01_ex_12">
-                <description></description>
+
+                  <shortdescription>
+                    Graph of 1+(x-2)^(2/3)/x exhibits a non-linear, upward-sloping curve within two defined intervals.
+                  </shortdescription>
+                  <description>
+                  <p>
+                    The graph is defined within two intervals, the first interval as <m>\((6, 1 + \left(\frac{\sqrt{2}^3}{3}\right))\)</m> and the second intervalas <m>(2, 1)</m>.
+                    At the first interval, the curve shows a continuous rise as <m>x</m> increases, reaching a maximum point of <m> 1 + \left(\frac{\sqrt{2}^3}{3}\right)</m>.
+                    At the second interval, the graph transitions to a lower value while maintaining continuity. The slope of the curve changes, indicating a shift in behavior
+                    of the function in these two regions.
+                    </p>
+                     <p>
+                      The graph's unique shape is influenced by radical and fractional expressions, featuring a maximum point in one interval and a change in slope in the other.
+                     </p>
+                </description>
+
                 <latex-image>
                   \begin{tikzpicture}
                   \begin{axis}[
@@ -1447,7 +1677,19 @@
                 <m>f(x) = <var name="$f"/></m>
               </p>
               <image xml:id="img_03_01_ex_13">
-                <description></description>
+
+                <shortdescription>
+                  The graph is a downward parabolic curve between -1 and 1 on the x-axis, reaching a height of 1 on the y-axis,
+                   with continuous lines extending from both sides at x = -1 and x = 1.
+                </shortdescription>
+                <description>
+                  <p>
+                    This graph portrays the function <m>\(f(x) = \sqrt[3]{x^4 - 2x^2 + 1}\)</m> within the interval <m>(-1, 0)</m> and <m>(1,0)</m>. It exhibits a distinctive downward parabolic 
+                    curve between -1 and 1 on the x-axis, creating an inverted U-shape. The parabolic curve reaches a maximum height of 1 on the y-axis.  Continuous lines extend seamlessly from 
+                    both sides at <m>x = -1</m>and <m>x = 1</m>, enhancing the smoothness of the graph.
+                  </p>
+                </description>
+                
                 <latex-image>
                   \begin{tikzpicture}
                   \begin{axis}[
@@ -1495,7 +1737,23 @@
                 <m>f(x) = \begin{cases}x^2,\amp x\leq0\\x^5,\amp x\gt0\end{cases}</m>
               </p>
               <image xml:id="img_03_01_ex_14">
-                <description></description>
+                <shortdescription>
+                  The graph of f(x) is a piecewise function with a quadratic curve and quintic curve
+                </shortdescription>
+                <description>
+                  <p>
+                    The graph represents the piecewise function <m>f(x)</m> with two distinct rules for different parts of the domain.
+                    For <m>(x \leq 0\)</m>, <m>f(x)</m> is defined as <m>x^2</m>, resulting in a U-shaped quadratic curve that opens upward. It starts from the origin <m>(0,0)</m> and extends as <m>x</m> decreases.
+                    For <m>(x\ gt 0)</m>, <m>f(x)</m> is defined as <m>x^5</m>, leading to a steeply increasing curve that ascends rapidly as <m>x</m>  becomes positive. It also starts from the origin <m>(0,0)</m>.
+                  </p>
+
+                  <p>
+                   Notably, there's a discontinuity at <m> x=0 </m> where the graph transitions from a quadratic curve to a quintic curve, creating a sharp corner at the origin.
+                  </p>
+
+                </description>
+                
+
                 <latex-image>
                   \begin{tikzpicture}
                   \begin{axis}[
@@ -1533,7 +1791,20 @@
                 <m>f(x) = \begin{cases}x^2,\amp x\leq0\\x,\amp x\gt0\end{cases}</m>
               </p>
               <image xml:id="img_03_01_ex_15">
-                <description></description>
+
+                <shortdescription>
+                  The graph of f(x) is a piecewise function. It features a parabolic curve, creating an upward-facing curve, and a linear segment
+                  forming a diagonal line
+                </shortdescription>
+                <description>
+                  <p>
+                  The graph of <m>f(x)</m>represents a piecewise function with two distinct behaviors. When <m>x</m> is less than or equal to zero, the function takes the form 
+                  <m>(f(x) = x^2)</m>. This results in a parabolic curve opening upward, with the vertex at the origin <m>(0,0)</m>.
+                   When <m>x</m> is greater than zero, the function becomes <m>f(x)=x</m>, forming a diagonal straight line, extending to the right from the origin. The graph's 
+                   transition occurs exactly at <m>x=0</m>, creating a point of continuity between the parabolic and linear segments.
+                </p>
+                </description>
+
                 <latex-image>
                   \begin{tikzpicture}
                   \begin{axis}[

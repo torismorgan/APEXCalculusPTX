@@ -28,7 +28,16 @@
     <caption>A graph of a function <m>f</m> used to illustrate the concepts of <em>increasing</em> and <em>decreasing</em></caption>
     <!-- START figures/fig_incr0.tex -->
     <image xml:id="img_incr0" width="47%">
-      <description></description>
+      <shortdescription> 
+       A Graph Illustrating Increasing and Decreasing Functions
+      </shortdescription>
+      <description>
+<p>
+  This graph depicts a function <m>f</m> to illustrate the concepts of increasing and decreasing.
+  The shape of the graph visually demonstrates the transitions between increasing and decreasing behavior.
+  The graph has a "U" shaped curve, crossing the y-axis at <m>y=3</m> and with the minimum at <m>x=1</m>
+</p>
+      </description>
       <latex-image>
         \begin{tikzpicture}
           \begin{axis}[
@@ -142,7 +151,18 @@
 
       <!-- START figures/fig_incr00.tex -->
       <image xml:id="img_incr00">
-        <description></description>
+        <shortdescription> 
+          A graph examining the secant line of an increasing function
+         </shortdescription>
+        <description>
+          <p>
+          The graph depicts a function <m>f</m>over an interval <m>([a, b])</m> where a secant line is drawn from <m>(x = a) </m> to <m>(x = b)</m>. 
+          The graph shows a rising trajectory, indicative of an increase in function values over the interval.
+        </p>
+          <p>
+            The secant line, drawn between two points on the graph,<m>(a, f(a))</m> and <m>(b, f(b))</m>has a positive slope, indicating the average rate of change.
+          </p>
+        </description>
         <latex-image>
           \begin{tikzpicture}
             \begin{axis}[
@@ -368,7 +388,15 @@
       <figure xml:id="fig_incrline1">
         <caption>Number line for <m>f</m> in <xref ref="ex_incr1">Example</xref></caption>
         <image xml:id="img_incrline1" width="47%">
-          <description></description>
+          <shortdescription>
+            A number line for the function f
+          </shortdescription>
+          <description>
+            <p>          
+          The number line is broken into three subintervals: <m>(-\infty,-1)</m>, <m>(-1,1/3)</m> and <m>(1/3,\infty)</m>.
+          With a line indicating the intervals at <m>(-\infty,-1)</m> and <m>(1/3,\infty)</m>.
+        </p>                                                                                                                                                                                                                                                                                                                                      
+          </description>
           <latex-image>
             \begin{tikzpicture}
               \begin{axis}[
@@ -440,7 +468,16 @@
         <caption>Completed number line for <m>f</m> in <xref ref="ex_incr1">Example</xref></caption>
         <!-- START figures/fig_incrline1.tex -->
         <image xml:id="img_incrline1a" width="47%">
-          <description></description>
+          <shortdescription>
+            A number line for the function f
+          </shortdescription>
+          <description>
+            <p>
+              The number line is broken into three subintervals: <m>(-\infty,-1)</m>, <m>(-1,1/3)</m> and <m>(1/3,\infty)</m>. At the interval, <m>(-\infty,-1)</m>,for values
+              <m>\fp\gt 0</m>, the function <m>f</m>increases. At <m>(-1,1/3)</m> <m>\fp\lt 0</m>, the function <m>f</m> decreases and at <m>(1/3,\infty)</m> <m>\fp\gt 0</m>, the function <m>f</m>
+              also increases.  
+            </p>                                                                                                                                                                                                                                                                                                                                          
+        </description>
           <latex-image>
             \begin{tikzpicture}
               \begin{axis}[
@@ -474,7 +511,20 @@
         <caption>A graph of <m>f(x)</m> in <xref ref="ex_incr1">Example</xref>, showing where <m>f</m> is increasing and decreasing</caption>
         <!-- START figures/fig_incr1.tex -->
         <image xml:id="img_incr1" width="47%">
-          <description></description>
+          <shortdescription>
+            The graph shows a function f(x) with an inflection point, and its derivative f'(x) that changes from negative to positive,
+             indicating where the function shifts from concave down to concave up.
+          </shortdescription>
+          <description>
+            <p>
+              The graph with two distinictive curves: a solid blue curve representing a function  <m>f(x)</m> and a dashed red curve representing its derivative <m> \fpx</m>. The blue curve <m>f(x)</m>
+              has a concave down shape initially and then transitions to concave up, indicating an inflection point where the concavity changes. The red dashed curve <m>\fpx</m> crosses the x-axis at 
+              the inflection point, going from negative to positive, which correlates with the change in concavity of  <m>f(x)</m>.
+             </p>
+              <p>
+              This indicates that <m>\fpx</m> is positive when <m>f(x)</m> is increasing and negative when <m>f(x)</m> is decreasing.
+            </p>
+           </description>
           <latex-image>
             \begin{tikzpicture}
               \begin{axis}[
@@ -616,7 +666,21 @@
     <figure xml:id="fig_inc_counter">
       <caption>A discontinuous function where <m>\fp</m> changes sign at 1, but <m>f(1)</m> is not a local maximum</caption>
       <image xml:id="img_incr_counter" width="47%">
-        <description></description>
+        <shortdescription>
+          The graph shows a broken line increasing, then discontinuing at x=1 with an open circle, and decreasing afterward,
+           indicating a slope change but not a local maximum due to the discontinuity.
+        </shortdescription>
+        <description>
+          <p>
+            The graph displays a piecewise function on a graph with an x-axis and a y-axis. The function increases from left to right up to the point <m>(1,2)</m>, 
+            then there is an open circle indicating a discontinuity—meaning the function doesn't have a value at 
+            <m>x=1</m> After this gap, the function continues from a point just above <m>1,2)</m> and decreases as it moves to the right.
+          </p>
+          <p>
+            This indicates that although the derivative <m>\fpx</m> changes sign at x=1 (from positive to negative, which usually suggests a local maximum), the function  <m>f(x)</m> itself 
+            doesn't have a maximum at x=1 because it's not continuous there—it jumps. Therefore, <m>f(1)</m> isn't a local maximum because the function isn't defined exactly at that point.    
+          </p>
+         </description>
         <latex-image>
           \begin{tikzpicture}
             \begin{axis}[
@@ -766,7 +830,21 @@
         <caption>Number line for <m>f</m> in <xref ref="ex_incr2"/></caption>
         <!-- START figures/fig_incrline2.tex -->
         <image xml:id="img_incrline2" width="47%">
-          <description></description>
+          <shortdescription>
+            A number line that represents the behavior of a function f based on the first derivative and identifies the 
+            relative minimum and maximum.
+          </shortdescription>
+          <description>
+            <p>
+             The number line has three points of interest: <m>(-1,1,3)</m>. These points divide the number line into different intervals, 
+             To the left of <m>\fp\gt 0</m> indicating that <m>f</m> is increasing, and <m>-1</m> is labeled as a relative maximum.
+            </p>
+            <p>
+            Between <m>-1</m> and <m>1</m>, <m>\fp\lt 0</m> which means <m>f</m> is decreasing.Between <m>1</m> and <m>3</m>, <m>\fp\lt 0</m> 
+            continues,meaning <m>f</m> is still decreasing, and <m>1</m> is marked as a relative minimum.To the right of <m>3</m>,<m>\fp\gt 0</m> indicating that 
+            <m>f</m> is increasing once again.
+            </p>
+          </description>
           <latex-image>
             \begin{tikzpicture}
               \begin{axis}[
@@ -805,7 +883,12 @@
         <caption>A graph of <m>f(x)</m> in <xref ref="ex_incr2">Example</xref>, showing where <m>f</m> is increasing and decreasing</caption>
         <!-- START figures/fig_incr2.tex -->
         <image xml:id="img_incr2" width="47%">
-          <description></description>
+          <shortdescription>
+            The graph illustrates how the derivative shows if f is increasing and decreasing
+          </shortdescription>
+          <description>
+            The graph illustrates how the derivative can help determine the behavior of the function
+          </description>
           <latex-image>
             \begin{tikzpicture}
               \begin{axis}[
